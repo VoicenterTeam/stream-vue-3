@@ -1,8 +1,8 @@
 {
   "name": "@voicenter-team/stream-vue-3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Vue 3 component for cloudflare streaming",
-  "main": "dist/super.mjs.js",
+  "main": "dist/super.mjs",
   "types": "dist/super.d.ts",
   "files": [
     "dist/*"
