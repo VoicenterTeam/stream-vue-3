@@ -1,0 +1,47 @@
+{
+  "name": "@voicenter-team/stream-vue-3",
+  "version": "0.0.1",
+  "description": "A Vue 3 component for cloudflare streaming",
+  "main": "dist/super.mjs.js",
+  "types": "dist/super.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "sideEffects": false,
+  "author": "bohdan.konechniy@gmail.com",
+  "bugs": {
+    "url": "https://github.com/VoicenterTeam/stream-vue-3/issues"
+  },
+  "homepage": "https://github.com/VoicenterTeam/stream-vue-3#readme",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "ts-check": "vue-tsc --noEmit",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "hls.js": "^1.1.5",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.0",
+    "@vitejs/plugin-vue": "4.5.0",
+    "typescript": "5.3.2",
+    "vite": "5.4.0",
+    "vite-plugin-dts": "3.7.2",
+    "@typescript-eslint/eslint-plugin": "6.18.1",
+    "@typescript-eslint/parser": "6.18.1",
+    "@voicenter-team/eslint-config-vue": "^1.0.21",
+    "@vue/eslint-config-typescript": "12.0.0",
+    "eslint": "8.56.0",
+    "eslint-plugin-vue": "9.19.2"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.12"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
